@@ -1,0 +1,26 @@
+Git clone [github link]
+
+	- Creates a local repository copy of the source code
+
+Git status
+
+	- Will show you the status of your local repository
+	- If any files are modified, added, or removed it will show you which
+
+Git init
+
+	- if for some reason the repos isn't a git repos, ex: running "Git status" returns something like "not a git repository"
+	- This will initialize the repo as a git repo
+
+Git add [filename]
+
+	- Will add modified files to a staging area
+
+Git commit -m [string message to describe commit]
+
+	- Will commit the modified files from the staging area (i.e from Git add ...) to your local repository(i think?)
+
+Git push
+
+	- Will push the local repository to the main repository
+
